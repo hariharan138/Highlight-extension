@@ -3,10 +3,10 @@ import { Mark } from '@tiptap/core';
 const Highlight = Mark.create({
   name: 'highlight',
 
-  // Add the default options
+
   addOptions() {
     return {
-      colors: ['yellow', 'orange', 'pink', 'green'], // Customize colors
+      colors: ['yellow', 'orange', 'pink', 'green'], 
       defaultColor: 'yellow',
     };
   },

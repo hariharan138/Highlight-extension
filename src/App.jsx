@@ -9,7 +9,7 @@ const App = () => {
     extensions: [
       StarterKit,
       Highlight.configure({
-        colors: ['yellow', 'orange', 'pink', 'green', 'blue'], // Customize as needed
+        colors: ['yellow', 'orange', 'pink', 'green', 'blue'],
         defaultColor: 'yellow',
       }),
     ],
